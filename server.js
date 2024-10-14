@@ -71,7 +71,7 @@ app.post('/login', (req,res) => controller.myLogin(req,res));
 app.get('/Object', (req, res) => {
   const User = {
     name:"peter",
-    age:25,
+    age:24,
     status: true
   }
   res.send({result: User});
