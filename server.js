@@ -70,7 +70,7 @@ app.post('/hello/myPostfromJson', (req,res) => controller.getmyJson(req,res)); /
 app.post('/login', (req,res) => controller.myLogin(req,res));
 app.get('/Object', (req, res) => {
   const User = {
-    name:"peter",
+    name:"peter Inwza",
     age:24,
     status: true
   }
